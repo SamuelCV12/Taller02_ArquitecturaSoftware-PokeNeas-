@@ -1,0 +1,48 @@
+:root {
+  color: #172033;
+  font-family: system-ui, sans-serif;
+  background: #f3f7ef;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  margin: 0;
+  place-items: center;
+}
+
+.card {
+  width: min(90vw, 520px);
+  padding: 2rem;
+  text-align: center;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 12px 40px #1720331c;
+}
+
+.eyebrow {
+  color: #197a55;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+  width: min(100%, 280px);
+  margin: 1rem auto;
+}
+
+blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.container {
+  color: #596273;
+  font-size: .9rem;
+}
+
+a {
+  color: #197a55;
+  font-weight: 700;
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokenea - <%= data[0].pokenea.nombre %></title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="card">
+      <p class="eyebrow">Pokedex paisa</p>
+      <h1><%= data[0].pokenea.nombre %></h1>
+      <img src="<%= data[0].pokenea.imagen %>" alt="Ilustración de <%= data[0].pokenea.nombre %>">
+      <blockquote>“<%= data[0].pokenea.fraseFilosofica %>”</blockquote>
+      <p class="container">Contenedor: <strong><%= data[0].containerId %></strong></p>
+      <a href="/pokenea">Mostrar otra Pokenea</a>
+    </main>
+  </body>
+</html>

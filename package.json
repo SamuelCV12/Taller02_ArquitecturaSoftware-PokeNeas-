@@ -1,0 +1,16 @@
+{
+  "name": "pokeneas-api",
+  "version": "1.0.0",
+  "description": "Pokedex de Pokeneas desplegable con Docker Swarm en AWS",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
